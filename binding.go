@@ -5,7 +5,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/mateuszmierzwinski/lmstudio/internal/model"
+	"github.com/mateuszmierzwinski/lmstudio/pkg/model"
 	"io"
 	"net/http"
 	"os"

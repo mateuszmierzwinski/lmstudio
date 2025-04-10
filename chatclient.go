@@ -1,6 +1,6 @@
 package lmstudio
 
-import "github.com/mateuszmierzwinski/lmstudio/internal/model"
+import "github.com/mateuszmierzwinski/lmstudio/pkg/model"
 
 // ChatClient defines the interface for interacting with an LMStudio-compatible API.
 type ChatClient interface {

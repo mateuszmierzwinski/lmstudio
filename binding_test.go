@@ -10,7 +10,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/mateuszmierzwinski/lmstudio/internal/model"
+	"github.com/mateuszmierzwinski/lmstudio/pkg/model"
 )
 
 // mockHTTPClient simulates an HTTP client response for testing.
@@ -136,7 +136,7 @@ func TestChatRequest_ErrorOnNon200(t *testing.T) {
 		DoFunc: func(req *http.Request) (*http.Response, error) {
 			return &http.Response{
 				StatusCode: 500,
-				Body:       io.NopCloser(bytes.NewBufferString("internal error")),
+				Body:       io.NopCloser(bytes.NewBufferString("pkg error")),
 			}, nil
 		},
 	}

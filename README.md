@@ -34,7 +34,7 @@ package main
 import (
 	"fmt"
 	"github.com/mateuszmierzwinski/lmstudio"
-	"github.com/mateuszmierzwinski/lmstudio/internal/model"
+	"github.com/mateuszmierzwinski/lmstudio/pkg/model"
 )
 
 func main() {
