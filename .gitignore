@@ -1,0 +1,11 @@
+.idea
+.vcs
+
+# Go
+bin/
+*.test
+*.exe
+*.out
+vendor/
+.env
+.history
